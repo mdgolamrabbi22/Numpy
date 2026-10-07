@@ -1,0 +1,168 @@
+🔢 NumPy Roadmap — 10 Modules
+
+Module 1 — NumPy Fundamentals
+--NumPy কী
+--NumPy কেন ব্যবহার করা হয়
+--import numpy as np
+--np.array()
+--1D Array
+--2D Array
+--3D Array
+--N-D Array
+--ndim
+--shape
+--size
+--dtype
+--itemsize
+--nbytes
+Module 2 — Array Creation & Data Types
+--np.zeros()
+--np.ones()
+--np.empty()
+--np.full()
+--np.eye()
+--np.identity()
+--np.arange()
+--np.linspace()
+--np.logspace()
+--NumPy Data Types
+--int32, int64
+--float32, float64
+--bool
+--complex
+--astype()
+Module 3 — Indexing & Slicing
+--1D Indexing
+--2D Indexing
+--3D Indexing
+--Positive Indexing
+--Negative Indexing
+--Row Selection
+--Column Selection
+--Basic Slicing
+--Step Slicing
+--2D Slicing
+--3D Slicing
+Module 4 — Array Manipulation
+--reshape()
+--resize()
+--flatten()
+--ravel()
+--transpose()
+--.T
+--expand_dims()
+--squeeze()
+--newaxis
+--insert()
+--delete()
+--append()
+--repeat()
+--tile()
+Module 5 — Array Operations & Functions
+--Arithmetic Operations
+--Array + Array
+--Array + Scalar
+--np.add()
+--np.subtract()
+--np.multiply()
+--np.divide()
+--np.power()
+--np.sqrt()
+--np.square()
+--np.abs()
+--np.exp()
+--np.log()
+--np.log10()
+--np.sin()
+--np.cos()
+--np.tan()
+Module 6 — Aggregation, Axis & Statistics
+--np.sum()
+--np.mean()
+--np.median()
+--np.min()
+--np.max()
+--np.std()
+--np.var()
+--np.prod()
+--np.cumsum()
+--np.cumprod()
+--axis=0
+--axis=1
+--Row-wise Operation
+--Column-wise Operation
+Module 7 — Boolean, Filtering & Searching
+--Comparison Operations
+--Boolean Array
+--Boolean Indexing
+--Boolean Mask
+--&
+--|
+--~
+--np.where()
+--np.argmax()
+--np.argmin()
+--np.nonzero()
+--np.searchsorted()
+--np.sort()
+--np.argsort()
+Module 8 — Joining, Splitting, Random & Special Values
+--concatenate()
+--vstack()
+--hstack()
+--stack()
+--split()
+--hsplit()
+--vsplit()
+--np.random
+--rand()
+--randn()
+--randint()
+--random()
+--uniform()
+--normal()
+--choice()
+--seed()
+--np.nan
+--np.inf
+--isnan()
+--isinf()
+--isfinite()
+Module 9 — Broadcasting, Copy/View & Linear Algebra
+--Broadcasting
+--Broadcasting Rules
+--Vectorization
+--Copy
+--View
+--copy()
+--Memory Sharing
+--Vector
+--Matrix
+--Matrix Multiplication
+--np.dot()
+--np.matmul()
+--@
+--Matrix Transpose
+--np.linalg.det()
+--np.linalg.inv()
+--np.linalg.solve()
+--np.linalg.eig()
+Module 10 — NumPy for Data Science
+--np.save()
+--np.load()
+--np.savez()
+--np.savetxt()
+--np.loadtxt()
+--np.genfromtxt()
+--CSV Handling
+--Array ↔ Python List
+--Array ↔ Tuple
+--NumPy + Functions
+--NumPy + Pandas
+--NumPy + Matplotlib
+--Feature Matrix
+--Vector & Matrix Operations
+--Normalization
+--Standardization
+--NumPy for Machine Learning
+--Practical NumPy Projects
