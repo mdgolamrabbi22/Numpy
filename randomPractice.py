@@ -17,3 +17,4 @@ rng = np.random.default_rng()
 fruits = np.array(["Banana", "apple", "licu", "pinaple"])
 fruit = rng.choice(fruits, size=3)
 print(fruit)
+ 
